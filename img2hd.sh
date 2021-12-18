@@ -11,7 +11,7 @@ cd $folder
 rm $folder/hd/hdimg_*.*
 find . -depth -name '* *' \
 | while IFS= read -r f ; do mv -i "$f" "$(dirname "$f")/$(basename "$f"|tr ' ' _)" ; done
-for file in *.jpg *.png; do convert $file -resize 1280 $folder/hd/hdimg_$file ; done 
+for file in *.jpg *.png; do convert $file -resize 1280x720 $folder/hd/hdimg_$file ; done 
 echo "Finished"
 notify-send "Done converting files in folder ./hd:"
 notify-send "$folder/hd"

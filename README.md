@@ -11,6 +11,8 @@ WE DO NOT EVEN RECOMMAND USING THOSE SCRIPTS
 
 IF YOU DON T KNOW WHAT IS A SCRIPT DON T USE IT.
 
+Check known issues in this github before using
+
 
 # img2hd.sh
 Converte images with imagemagick :

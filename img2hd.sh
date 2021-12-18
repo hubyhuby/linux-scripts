@@ -4,6 +4,7 @@ echo -e "\e[32mThis script convert the jpg images in current folder to HD files 
 mkdir hd
 folder="$(zenity  --file-selection --title="Choose a directory with images (jpg&png files)" --directory)"
 echo "Converting all images, please wait..."
+notify-send "img2hd : Please wait..."
 echo $folder
 cd $folder
 rm ./hd/hdimg_*.*

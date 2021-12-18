@@ -1,6 +1,9 @@
 # linux-scripts
 Some linux script I like to use
 
+#License 
+USE AT YOUR OWN RISKS. NO WARRNTY OF ANY KIND.
+IF YOU DON T KNOW WHAT IS A SCRIPT DON T USE IT.
 
 # img2hd.sh
 Converte images with imagemagick :

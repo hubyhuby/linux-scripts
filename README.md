@@ -1,7 +1,7 @@
 # linux-scripts
 Some linux script I like to use
 
-#License 
+# License 
 USE AT YOUR OWN RISKS. NO WARRNTY OF ANY KIND.
 IF YOU DON T KNOW WHAT IS A SCRIPT DON T USE IT.
 

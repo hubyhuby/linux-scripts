@@ -9,9 +9,11 @@ mkdir $folder/hd
 echo $folder
 cd $folder
 rm $folder/hd/hdimg_*.*
+#remove spaces in files
 find . -depth -name '* *' \
 | while IFS= read -r f ; do mv -i "$f" "$(dirname "$f")/$(basename "$f"|tr ' ' _)" ; done
-for file in *.jpg *.png; do convert $file -resize 1280x720 $folder/hd/hdimg_$file ; done 
+#convert images
+for file in *.jpg *.jpeg *.JPG *.JPEG *.png; do convert $file -resize 1280x720 $folder/hd/hdimg_$file ; done 
 echo "Finished"
 notify-send "Done converting files in folder ./hd:"
 notify-send "$folder/hd"

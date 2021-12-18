@@ -3,8 +3,14 @@ Some linux script I like to use
 
 # License 
 USE AT YOUR OWN RISKS.
+
+
 NO WARRANTY OF ANY KIND.
+
+WE DO NOT EVEN RECOMMAND USING THOSE SCRIPTS
+
 IF YOU DON T KNOW WHAT IS A SCRIPT DON T USE IT.
+
 
 # img2hd.sh
 Converte images with imagemagick :

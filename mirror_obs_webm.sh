@@ -1,6 +1,6 @@
 
 #! /bin/bash
-echo -e "\e[32mThis script convert videos Very Quick and MIRROR horizontaly for OBS videos  WEBM using ffmpeg in an acceptable time on 2020 CPUs(~2 times slower thzn zctual videos).\n Using -deadline good , you may try -deadline realtime. (good best realtime) \e[0m"
+echo -e "\e[32mThis script convert videos very quickely and MIRROR horizontaly for OBS videos WEBM using ffmpeg. It retains audio and crunch as much as possible the video to send it via email  \e[0m"
 
 folder="$(zenity  --file-selection --title="Choose a video file to MIRROR quickely in webm " --file-selection)"
 echo "Converting the video, please wait (encoding will take ~same time as the duration of the video) ..."

@@ -20,7 +20,7 @@ Converte images with imagemagick :
 - ./hd folder is created
 - Files in HD 1280 X * are converted in there
  
- #Timer 120m
+ # Timer 120m
  ![image](https://user-images.githubusercontent.com/26340942/213880821-d13e8a31-f687-42c7-8a66-b5a46b418dc2.png)
 
 

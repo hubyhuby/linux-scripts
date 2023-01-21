@@ -6,22 +6,27 @@ break_interval=6 # break interval in minutes
 notifduration=20000
 
 while true; do
+    #Notify startup
     current_time=$(date +%T)
-    echo "$current_time  :⌛  Starting Pomodoro session of $interval minutes"
-    paplay /usr/share/sounds/freedesktop/stereo/complete.oga
-    paplay /usr/share/sounds/freedesktop/stereo/complete.oga
-    paplay /usr/share/sounds/freedesktop/stereo/complete.oga
+    echo "$current_time :🏁 Starting WORK session of $interval minutes 🏁"
+     printf "\n"
+    for i in {1..3}; do
+      paplay /usr/share/sounds/freedesktop/stereo/complete.oga
+      sleep 1
+    done
+    paplay /usr/share/sounds/freedesktop/stereo/bell.oga
+ 
     # start timer
     for ((i=interval; i>=0; i--)); do
-      printf "\r\033[32m⌛ TIME REMAINING : %02d minutes \033[0m" $i
+      printf "\r\033[32m ⌛ TIME REMAINING : %02d minutes \033[0m" $i
       sleep 60
     done
 
     # session is over
    current_time=$(date +%T)
-    notify-send -t $notifduration "😴 Break Time" "$current_time: ☕ TAKE A BREAK NOW "
+    notify-send -t $notifduration "☕ Break Time" "$current_time: ☕ TAKE A BREAK NOW "
 
-    printf "\r$current_time: 😴☕Session is over! Take a break.\n"
+    printf "\r$current_time: ☕Session is over! Take a break.\n"
     echo "Press any key to start the break timer"
     read -n 1 -s
     
@@ -35,6 +40,6 @@ while true; do
     # break is over
     current_time=$(date +%T)
     notify-send -t $notifduration " $current_time :⌛ Break is OVER !"
-    printf "\r$current_time :  ⌛ Break is over! Starting new Pomodoro session.\n"
+    printf "\r$current_time :  ⌛ Break is over! Starting new WORK session.\n"
   
 done

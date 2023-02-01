@@ -31,6 +31,8 @@ Converte images with imagemagick :
 If you are into innovation, feel free to check my companies web site.
 We are doing [Design Thinking](https://tooap.com/)  at [Tooap](https://tooap.com/) 
 
+[Video tutorial for innovators on Youtube ](https://www.youtube.com/@tooaptooap2637) 
+
 # Financez & développez votre projet avec un expert de la tech
 
 [Startup Elevator Financez & développez votre projet innovant](https://startup-elevator.com/)

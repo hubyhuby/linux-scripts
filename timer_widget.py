@@ -1,5 +1,4 @@
-#to launch me : python3 timer_widget.py
-from PyQt5 import QtCore
+#to launch me : python3 timer_widget.pyfrom PyQt5 import QtCore
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QHBoxLayout, QPushButton, QProgressBar
 from PyQt5.QtCore import Qt, QPoint
@@ -14,7 +13,7 @@ class TimerWidget(QWidget):
 
     def initUI(self):
         
-        self.setFixedSize(200, 40)
+        self.setFixedSize(200, 35)
         self.setAttribute(Qt.WA_TranslucentBackground, True)
         #self.setWindowOpacity(0.6);
 
@@ -64,14 +63,17 @@ class TimerWidget(QWidget):
         self.timer.start(10000) # update every 10 second
         self.remaining_time = self.timer_duration # seconds
         self.current_time = 0 # seconds
+        self.timer_label.setText(f'running')
 
 
     def update_timer(self):
         self.remaining_time -= 1
         self.current_time += 1
         self.progress_bar.setValue(self.current_time)
+        
         if self.remaining_time > 0:
             self.timer_label.setText(f'{self.remaining_time} / {self.timer_duration}')
+            self.setWindowTitle(f'{self.remaining_time} / {self.timer_duration}')
         else:
             self.timer_label.setText('Timer expired')
             self.timer.stop()

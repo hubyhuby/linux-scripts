@@ -1,0 +1,130 @@
+[
+  {
+    "name": "SERENNO",
+    "location": "West"
+  },
+  {
+    "name": "ALDERAAN",
+    "location": "South"
+  },
+  {
+    "name": "BARDOTTA",
+    "location": "South"
+  },
+  {
+    "name": "MALASTARE",
+    "location": "South-West"
+  },
+  {
+    "name": "FELUCIA",
+    "location": "North"
+  },
+  {
+    "name": "KASHYYK",
+    "location": "North"
+  },
+  {
+    "name": "NAL HUTTA",
+    "location": "North"
+  },
+  {
+    "name": "UMBARA",
+    "location": "Middle"
+  },
+  {
+    "name": "TOYDARIA",
+    "location": "Middle"
+  },
+  {
+    "name": "MUSTAFAR",
+    "location": "South West"
+  },
+  {
+    "name": "ONDERON",
+    "location": "Middle"
+  },
+  {
+    "name": "SULLUST",
+    "location": "South East"
+  },
+  {
+    "name": "UTAPAU",
+    "location": "South East"
+  },
+  {
+    "name": "LOLA SAYU",
+    "location": "North West"
+  },
+  {
+    "name": "GENOSIS",
+    "location": "North East"
+  },
+  {
+    "name": "CHRISTOPHSIS",
+    "location": "North East"
+  },
+  {
+    "name": "RYLOTH",
+    "location": "North East"
+  },
+  {
+    "name": "TATOOINE",
+    "location": "North East"
+  },
+  {
+    "name": "CORUSCANT",
+    "location": "South"
+  },
+  {
+    "name": "NABOO",
+    "location": "East"
+  },
+  {
+    "name": "MANDALORE",
+    "location": "West"
+  },
+  {
+    "name": "RISHI",
+    "location": "North"
+  },
+  {
+    "name": "KAMINO",
+    "location": "North"
+  },
+  {
+    "name": "ONA DIAH",
+    "location": "North"
+  },
+  {
+    "name": "RODIA",
+    "location": "Center"
+  },
+  {
+    "name": "CORELLIA",
+    "location": "Center"
+  },
+  {
+    "name": "+ WHITE MARKER",
+    "location": "*"
+  },
+  {
+    "name": "+ ORANGE MARKER",
+    "location": "*"
+  },
+  {
+    "name": "ANAXES",
+    "location": "South West"
+  },
+  {
+    "name": "ORD MANTELL",
+    "location": "South West"
+  },
+  {
+    "name": "DARTHOMIR",
+    "location": "South West"
+  },
+  {
+    "name": "MON CALA",
+    "location": "North West"
+  }
+]

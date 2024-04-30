@@ -33,6 +33,15 @@ We are doing [Design Thinking](https://tooap.com/)  at [Tooap](https://tooap.com
 
 [Video tutorial for innovators on Youtube ](https://www.youtube.com/@tooaptooap2637) 
 
+# Innovation management software 
+
+[Kangaruu : The innovation management Chatbot for Slack and Teams ](https://kangaruu.io/)
+
 # Financez & développez votre projet avec un expert de la tech
 
-[Startup Elevator Financez & développez votre projet innovant](https://startup-elevator.com/)
+[Compass Financement expert crédit d'impôt, recherche et subvention à l'innovation](https://compass-financement.com/)
+
+
+
+
+

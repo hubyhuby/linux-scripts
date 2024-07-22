@@ -41,6 +41,9 @@ We are doing [Design Thinking](https://tooap.com/)  at [Tooap](https://tooap.com
 
 [Compass Financement expert crédit d'impôt, recherche et subvention à l'innovation](https://compass-financement.com/)
 
+# A cybersecurity teacher for you organisations
+
+[Engage your employees in cybersecurity training with our innovative App for MS Teams. ](https://cyber-kong.io/)
 
 
 
